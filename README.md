@@ -10,16 +10,14 @@ de APK sin ordenador.
 
 ## Descargar
 
-**La primera versión pública (0.5, beta) todavía no está publicada: aparecerá aquí mismo.**
-
-Cuando salga, el enlace será **[Descargar el APK](https://github.com/ortiz1022009/Hefesto/releases/latest)**
-y estas serán las condiciones:
+**[Descargar Hefesto 0.5 (beta)](https://github.com/ortiz1022009/Hefesto/releases/latest)**
 
 - Android 8.0 o superior, procesador **arm64-v8a** (cualquier teléfono moderno).
 - Se instala como cualquier APK: al abrirlo, Android pedirá permitir la instalación desde esta
   fuente (es normal en apps que no vienen de una tienda).
 - La app se actualiza instalando la versión nueva encima; no se pierde nada.
 - El archivo está firmado siempre con la misma clave, así que Android acepta las actualizaciones.
+- Lo que trae cada versión, en [NOVEDADES.md](NOVEDADES.md).
 
 ## Qué hace
 
