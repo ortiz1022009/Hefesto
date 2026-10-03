@@ -3,12 +3,16 @@
 **An Android development workspace in your phone.** Write code, run AI agents and build APKs
 without a PC.
 
-> **Current version: 0.5 (beta).** Usable, but still in testing: it can break and some parts are
+> **Current version: 0.5.1 (beta).** Usable, but still in testing: it can break and some parts are
 > rough. Every issue you report gets fixed in the next version (there is a report button inside the
 > app).
 
-**Download:** **[Hefesto 0.5 (beta)](https://github.com/ortiz1022009/Hefesto/releases/latest)** ·
-Android 8.0+ · arm64-v8a · ~13 MB · [What's new](NOVEDADES.md) · [Privacy](PRIVACIDAD.md)
+**Download:** **[Hefesto 0.5.1 (beta)](https://github.com/ortiz1022009/Hefesto/releases/latest)** ·
+Android 8.0+ · arm64-v8a · ~13 MB · [What's new](NOVEDADES.md) · [Privacy](PRIVACIDAD.md) ·
+[License](LICENCIA.md)
+
+**Automatic updates:** add this repository to [Obtainium](https://github.com/ImranR98/Obtainium)
+(`https://github.com/ortiz1022009/Hefesto`) and it will notify you of every new version.
 
 ## Screenshots
 
@@ -30,6 +34,12 @@ The website built with Hefesto itself (using Google's Antigravity CLI as the age
 - **GitHub built in.** Connect your account, clone repositories, commit, push and open pull requests
   from the phone.
 - **Files, terminal and projects** with an editor, file tree and a real console.
+- **Local models (Hefesto local).** A catalog with sizes from modest phones up to powerful ones,
+  colour-coded advice on what your phone can take, memory management and delete-with-confirmation.
+  You can also import GGUF files you already have.
+- **Stop or cancel from the notification.** The agent and the APK build can be stopped without
+  opening the app; if you stop them by accident, it asks for confirmation first and you can resume
+  with one tap.
 - **In English and Spanish**, with light and dark themes.
 
 ## Your privacy
@@ -62,13 +72,13 @@ what is published here are the ready-to-install versions.*
 programar, compilar y publicar de verdad: agentes que trabajan, un entorno Linux propio y compilación
 de APK sin ordenador.
 
-> **Versión actual: 0.5 (beta).** Se puede usar y probar, pero está en pruebas: puede fallar y hay
+> **Versión actual: 0.5.1 (beta).** Se puede usar y probar, pero está en pruebas: puede fallar y hay
 > cosas por pulir. Cada fallo que cuentes se arregla en la siguiente versión (hay un apartado para
 > reportar dentro de la propia app).
 
 ### Descargar
 
-**[Descargar Hefesto 0.5 (beta)](https://github.com/ortiz1022009/Hefesto/releases/latest)**
+**[Descargar Hefesto 0.5.1 (beta)](https://github.com/ortiz1022009/Hefesto/releases/latest)**
 
 - Android 8.0 o superior, procesador **arm64-v8a** (cualquier teléfono moderno).
 - Se instala como cualquier APK: al abrirlo, Android pedirá permitir la instalación desde esta
@@ -76,6 +86,9 @@ de APK sin ordenador.
 - La app se actualiza instalando la versión nueva encima; no se pierde nada.
 - El archivo está firmado siempre con la misma clave, así que Android acepta las actualizaciones.
 - Lo que trae cada versión, en [NOVEDADES.md](NOVEDADES.md).
+
+**Actualizaciones automáticas:** si usas [Obtainium](https://github.com/ImranR98/Obtainium), añade
+este repositorio (`https://github.com/ortiz1022009/Hefesto`) y te avisará de cada versión nueva.
 
 ### Qué hace
 
@@ -91,6 +104,8 @@ de APK sin ordenador.
 - **Modelos locales (Hefesto local).** Catálogo con tamaños desde teléfonos de 1 GB hasta los que van
   sobrados, con aviso de colores de lo que aguanta tu teléfono, gestión de memoria y borrado con
   confirmación. También se pueden importar modelos en formato GGUF.
+- **Detener desde la notificación.** Al agente y a la compilación se les puede parar sin abrir la app;
+  si lo haces sin querer, pide confirmación antes y se reanuda con un toque.
 - **En español e inglés**, con temas claro y oscuro y ajustes que se quedan guardados.
 
 ### Tu privacidad
@@ -104,7 +119,7 @@ de APK sin ordenador.
 - Los reportes de problema son opcionales y llevan tu explicación y datos técnicos del teléfono; las
   claves y los tokens se tachan automáticamente antes de salir.
 
-[Política de privacidad](PRIVACIDAD.md)
+[Política de privacidad](PRIVACIDAD.md) · [Licencia de uso](LICENCIA.md)
 
 ### Si algo falla
 
