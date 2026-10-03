@@ -1,44 +1,67 @@
-# Novedades
+## 0.5.1 (beta) — más control y menos asperezas
 
-Lo que trae cada versión que se puede descargar. Cuentan lo que gana quien usa la app, no lo de
-dentro.
+Actualización de la beta. Se instala encima de la anterior: no se pierde nada.
 
-## 0.5 (beta) — primera versión pública
+**Detener sin abrir la app**
+- Puedes detener al agente o cancelar la compilación desde la propia notificación. Si lo detienes sin
+  querer, te pide confirmación antes y puedes reanudar el trabajo con un toque.
 
-Primera versión que se publica. **Está en pruebas**: puede cerrarse sola (sobre todo con el motor
-local o al compilar, que es cuando más memoria se usa), alguna función puede quedarse a medias y hay
-cosas por pulir. Lo que falle se puede contar desde la propia app, en **Ajustes → Ayuda y diagnóstico
-→ Reportar un problema**, y sirve para arreglarlo en la siguiente versión.
+**Mientras el agente trabaja**
+- Los avisos de tarea terminada te llevan al chat donde acabó y se quitan solos al abrir la app. El de
+  «trabajando» dice ya qué está haciendo y cuánto lleva.
+- Los motores externos saben que trabajan dentro de Hefesto: te guían por sus apartados en lugar de
+  mandarte a un ordenador.
 
-**Agentes que trabajan de verdad**
-- Cuatro motores: el agente integrado de Hefesto, Antigravity, OpenCode y **Hefesto local** (un modelo
-  que funciona dentro del teléfono, sin internet y sin claves).
-- El agente usa herramientas de verdad: leer y escribir archivos, ejecutar comandos, buscar y compilar.
-- Modos de trabajo (plan, revisión y automático): se le puede pedir que avise antes de tocar archivos.
+**Proyectos**
+- Selecciona varios proyectos a la vez y decide qué hacer con ellos: borrarlos, fijarlos o compartirlos.
+- Un proyecto fijado queda protegido: no se puede borrar hasta quitarle el fijado.
 
-**Compilar en el teléfono**
-- Entorno Linux propio dentro de la app (Alpine con proot): sin root y sin ordenador.
-- Compilación de APK con Gradle, SDK de Android, Kotlin y Java, con el progreso a la vista y el error
-  explicado cuando algo falla.
-- Terminal y consola con los comandos reales.
+**Acabado**
+- Todas las ventanas (avisos, confirmaciones y errores) tienen el mismo acabado que el resto de la
+  app, con su icono y la acción principal bien a la vista.
+- Los menús de opciones (más opciones, adjuntar y modos de trabajo) van a juego con el resto.
 
-**Hefesto local**
-- Catálogo de modelos con tamaños para teléfonos modestos y para los que van sobrados.
-- Aviso de tres colores de lo que aguanta tu teléfono, con la memoria y el espacio a la vista.
-- Ajustes de memoria, contexto y procesador; borrar un modelo pide confirmación.
-- Se pueden descargar desde la app o importar archivos `.gguf` que ya tengas.
+**Arreglos**
+- Copiar un texto largo (un bloque de código, la salida de un comando o un informe de error) ya no
+  cierra la app.
+- La lista de proyectos se desliza sin tirones, aunque tengas muchos.
+- El botón de atrás ya no te devuelve a apartados por los que ya pasaste, y salir de un proyecto
+  vuelve a la lista en vez de quedarse en negro.
+- Los mensajes del agente se ven ya con su formato: negritas, listas y bloques de código con su botón
+  para copiar, sin asteriscos a la vista.
+- Fuera el cuadradito fantasma que asomaba en el borde de Chat y Archivos después de usar la vista
+  previa.
+- Las Novedades y el resto de los textos cambian de idioma junto con la app.
 
-**GitHub desde el móvil**
-- Conectar la cuenta, clonar repositorios, commit, push y pull requests sin salir de la app.
+## 0.5.1 (beta) — more control, tidier rough edges
 
-**Archivos y proyectos**
-- Editor, vista de árbol, búsqueda, proyectos fijados y copias de seguridad (proyecto, todos los
-  proyectos o solo los ajustes).
+Beta update. Install it on top of the previous one: nothing is lost.
 
-**Idioma y aspecto**
-- Español e inglés, tema claro y oscuro, y ajustes que se quedan guardados.
+**Stop without opening the app**
+- You can stop the agent or cancel the build right from the notification. If you stop it by accident,
+  it asks for confirmation first and you can resume the work with one tap.
 
-**Cosas de esta beta**
-- Aviso de beta la primera vez que se abre cada versión, con lo que puede fallar y cómo reportarlo.
-- Reporte de fallos desde la app: se manda con un toque, lleva el diagnóstico del teléfono y las
-  claves de API se tachan solas antes de salir.
+**While the agent works**
+- Finished-task notices take you to the chat where it ended, and they clear themselves when you open
+  the app. The «working» notice now says what it is doing and how long it has been at it.
+- External engines know they are running inside Hefesto: they guide you through its own screens
+  instead of sending you to a computer.
+
+**Projects**
+- Select several projects at once and decide what to do with them: delete, pin or share.
+- A pinned project is protected: it cannot be deleted until you unpin it.
+
+**Looks**
+- Every window (warnings, confirmations and errors) now matches the rest of the app, with its own icon
+  and the main action clearly in sight.
+- Options menus (more options, attach and working modes) match the rest too.
+
+**Fixes**
+- Copying a long text (a code block, a command output or an error report) no longer closes the app.
+- The project list scrolls smoothly, even with many projects.
+- The back button no longer takes you to screens you already left, and leaving a project goes back to
+  the list instead of a black screen.
+- Agent messages now show their formatting — bold, lists and code blocks with their copy button —
+  with no asterisks in sight.
+- The ghost square that peeped at the edge of Chat and Files after using the preview is gone.
+- What's new and the rest of the texts now follow the app language.
