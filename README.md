@@ -3,16 +3,18 @@
 **An Android development workspace in your phone.** Write code, run AI agents and build APKs
 without a PC.
 
-> **Current version: 0.5.1 (beta).** Usable, but still in testing: it can break and some parts are
+> **Current version: 0.5.2 (beta).** Usable, but still in testing: it can break and some parts are
 > rough. Every issue you report gets fixed in the next version (there is a report button inside the
 > app).
 
-**Download:** **[Hefesto 0.5.1 (beta)](https://github.com/ortiz1022009/Hefesto/releases/latest)** ·
+**Download:** **[Hefesto 0.5.2 (beta)](https://github.com/ortiz1022009/Hefesto/releases/latest)** ·
 Android 8.0+ · arm64-v8a · ~13 MB · [What's new](NOVEDADES.md) · [Privacy](PRIVACIDAD.md) ·
 [License](LICENCIA.md)
 
 **Automatic updates:** add this repository to [Obtainium](https://github.com/ImranR98/Obtainium)
 (`https://github.com/ortiz1022009/Hefesto`) and it will notify you of every new version.
+**Update rhythm:** a new version every Sunday. Bug fixes ship as soon as they are ready, without
+waiting for Sunday.
 
 ## Screenshots
 
@@ -72,13 +74,13 @@ what is published here are the ready-to-install versions.*
 programar, compilar y publicar de verdad: agentes que trabajan, un entorno Linux propio y compilación
 de APK sin ordenador.
 
-> **Versión actual: 0.5.1 (beta).** Se puede usar y probar, pero está en pruebas: puede fallar y hay
+> **Versión actual: 0.5.2 (beta).** Se puede usar y probar, pero está en pruebas: puede fallar y hay
 > cosas por pulir. Cada fallo que cuentes se arregla en la siguiente versión (hay un apartado para
 > reportar dentro de la propia app).
 
 ### Descargar
 
-**[Descargar Hefesto 0.5.1 (beta)](https://github.com/ortiz1022009/Hefesto/releases/latest)**
+**[Descargar Hefesto 0.5.2 (beta)](https://github.com/ortiz1022009/Hefesto/releases/latest)**
 
 - Android 8.0 o superior, procesador **arm64-v8a** (cualquier teléfono moderno).
 - Se instala como cualquier APK: al abrirlo, Android pedirá permitir la instalación desde esta
@@ -89,6 +91,8 @@ de APK sin ordenador.
 
 **Actualizaciones automáticas:** si usas [Obtainium](https://github.com/ImranR98/Obtainium), añade
 este repositorio (`https://github.com/ortiz1022009/Hefesto`) y te avisará de cada versión nueva.
+**Ritmo de actualizaciones:** una versión nueva cada domingo. Los arreglos de errores salen en
+cuanto están listos, sin esperar al domingo.
 
 ### Qué hace
 
