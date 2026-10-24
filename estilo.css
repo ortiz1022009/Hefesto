@@ -4,10 +4,11 @@
 @font-face{font-family:"Manrope respaldo";src:local("Arial");size-adjust:104%;ascent-override:95%}
 
 :root{
-  --fondo:#0F1113; --sup-1:#15181B; --sup-2:#1B1F23; --sup-3:#23282D;
-  --tinta:#EDE9E1; --tinta-2:#A9ADB3; --tinta-3:#6F747B;
-  --linea:rgba(237,233,225,.08); --linea-2:rgba(237,233,225,.14);
-  --primario:#EDE9E1; --primario-tinta:#0F1113;
+  /* Paleta de la app 1.0: carbón de forja cálido (ui/theme/Theme.kt). */
+  --fondo:#100F0D; --sup-1:#151310; --sup-2:#1A1815; --sup-3:#201D18;
+  --tinta:#ECEAE5; --tinta-2:#B3AEA6; --tinta-3:#8A857D;
+  --linea:rgba(236,234,229,.08); --linea-2:rgba(236,234,229,.14);
+  --primario:#F3EEE3; --primario-tinta:#100F0D;
   --ancho:1120px; --r:16px; --r-s:10px;
 }
 *{box-sizing:border-box}
@@ -263,8 +264,8 @@ html{scroll-padding-top:76px}
 .activo{border:1px solid var(--linea);border-radius:var(--r);overflow:hidden;background:var(--sup-1)}
 .activo .muestra{height:220px;display:flex;align-items:center;justify-content:center;gap:14px;font-family:Cinzel,serif;font-weight:600;font-size:28px;letter-spacing:.05em}
 .activo .muestra img{width:64px;height:64px;border-radius:16px}
-.activo .muestra.claro{background:#F2EBDD;color:#1C2126}
-.activo .muestra.oscuro{background:#1C2126;color:#F2EBDD}
+.activo .muestra.claro{background:#F3EEE3;color:#100F0D}
+.activo .muestra.oscuro{background:#100F0D;color:#F3EEE3}
 .activo .info{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:14px;color:var(--tinta-2);border-top:1px solid var(--linea)}
 .activo .info span{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--tinta-3)}
 .paleta{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:20px}
@@ -344,7 +345,7 @@ h1{letter-spacing:-.045em}
 .btn.g{padding:0 30px}
 .portada h1 .w{display:inline-block;animation:entra var(--lento) var(--salida) both}
 .chispas{position:absolute;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
-.chispas i{position:absolute;bottom:-4px;width:3px;height:3px;border-radius:50%;background:#F2EBDD;opacity:0;animation:sube var(--d,9s) linear var(--r,0s) infinite}
+.chispas i{position:absolute;bottom:-4px;width:3px;height:3px;border-radius:50%;background:#F3EEE3;opacity:0;animation:sube var(--d,9s) linear var(--r,0s) infinite}
 @keyframes sube{0%{transform:translateY(0) translateX(0);opacity:0}8%{opacity:var(--o,.5)}90%{opacity:var(--o,.5)}100%{transform:translateY(-78vh) translateX(var(--x,0px));opacity:0}}
 @media (max-width:760px){.chispas i:nth-child(n+16){display:none}}
 @media (prefers-reduced-motion:reduce){.chispas i{animation:none;opacity:.25;bottom:auto;top:var(--t,50%)}}
