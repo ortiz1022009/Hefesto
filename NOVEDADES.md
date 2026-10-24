@@ -1,4 +1,8 @@
 
+## 1.0.1 — Arreglo para proveedores compatibles con OpenAI
+
+- **Servidor siempre visible:** Los proveedores personalizados compatibles con OpenAI (Zhipu GLM, OpenRouter, servidor propio...) ya tienen siempre visible el campo «Servidor» junto a la clave. Antes estaba oculto tras el modo desarrollador. Se instala encima de la 1.0, sin perder nada.
+
 ## 1.0 — la primera versión estable
 
 La 1.0, con cara nueva. Esto es lo que hay dentro:
