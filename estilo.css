@@ -30,8 +30,9 @@ section{padding:112px 0}
 .centro{text-align:center}.centro .sub{margin-left:auto;margin-right:auto}
 
 /* cabecera */
-header{position:sticky;top:0;z-index:30;background:rgba(15,17,19,.94);border-bottom:1px solid var(--linea);contain:paint}
-@media (pointer:fine){@supports (backdrop-filter:blur(1px)){header{background:rgba(15,17,19,.78);backdrop-filter:blur(12px)}}}
+/* Sin contain:paint: recortaba el menú del móvil, que despliega por debajo de la barra. */
+header{position:sticky;top:0;z-index:30;background:rgba(16,15,13,.94);border-bottom:1px solid var(--linea)}
+@media (pointer:fine){@supports (backdrop-filter:blur(1px)){header{background:rgba(16,15,13,.78);backdrop-filter:blur(12px)}}}
 .barra{height:60px;display:flex;align-items:center;gap:26px}
 .logo{display:flex;align-items:center;gap:10px;font-family:Cinzel,serif;font-weight:600;font-size:18px;letter-spacing:.05em}
 .logo img{width:26px;height:26px;border-radius:7px}

@@ -22,7 +22,7 @@
   <div class="cont barra">
     <a class="logo" href="https://ortiz1022009.github.io/Hefesto/en/" aria-label="Hefesto, home"><img src="https://ortiz1022009.github.io/Hefesto/logo.png" alt="" width="26" height="26">Hefesto</a>
     <button class="hamb" onclick="var n=document.querySelector('nav');n.classList.toggle('abierto');this.setAttribute('aria-expanded',n.classList.contains('abierto'))" aria-label="Menu" aria-expanded="false">☰</button>
-    <nav aria-label="Main">
+    <nav aria-label="Main" onclick="if(event.target.closest('a')){this.classList.remove('abierto')}">
       <a href="https://ortiz1022009.github.io/Hefesto/en/#producto" data-p="index">Product</a>
       <a href="https://ortiz1022009.github.io/Hefesto/en/agora" data-p="agora">Ágora</a>
       <a href="https://ortiz1022009.github.io/Hefesto/en/instalar" data-p="instalar">Install</a>
