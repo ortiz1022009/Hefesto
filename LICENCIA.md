@@ -20,7 +20,7 @@ español.
 
 ## Sin garantías
 
-Hefesto se ofrece **tal cual**, en su versión beta, sin garantía de ningún tipo: puede fallar o
+Hefesto se ofrece **tal cual**, en su versión 1.0, sin garantía de ningún tipo: puede fallar o
 cerrarse sola. No se responde de daños o pérdidas derivados de su uso, incluidos proyectos, archivos o
 compilaciones. Lo que hagas con la app es responsabilidad tuya.
 
@@ -58,7 +58,7 @@ Published in Spanish and English; if the two differ, the Spanish version prevail
 
 ## No warranty
 
-Hefesto is provided **as is**, in its beta version, without warranty of any kind: it may fail or close
+Hefesto is provided **as is**, in version 1.0, without warranty of any kind: it may fail or close
 by itself. No liability is accepted for damages or losses arising from its use, including projects,
 files or builds. What you do with the app is your responsibility.
 
