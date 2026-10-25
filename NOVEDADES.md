@@ -1,4 +1,10 @@
 
+## 1.0.3 — Ágora se instala bien y más formas de arreglarlo
+
+- **Instalador más robusto:** Las herramientas del Ágora vuelven a instalar bien en los teléfonos donde fallaban con «código 100» (PHP, .NET, Godot, Chromium…). La pieza que faltaba (dbus) viene ahora de fábrica en el Linux de Hefesto, y si un paquete se queda a medias, el instalador lo reconfigura y reintenta solo.
+- **Soporte y red:** Al contar un problema puedes dejar tu correo para recibir respuesta. Si tu red no deja bajar las herramientas grandes (Gradle, Node, Kotlin…), puedes importar el archivo oficial bajado en otro equipo: la ficha lo deja instalado y la tienda lo reconoce.
+- **Se instala encima:** No se pierde nada.
+
 ## 1.0.2 — La terminal vuelve a funcionar
 
 - **WebView compatible:** En teléfonos donde la terminal se quedaba en blanco por un WebView antiguo del sistema, ahora vuelve a funcionar en Android 8 y posteriores.
