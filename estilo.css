@@ -307,7 +307,10 @@ p,li,td{font-weight:450}
 .portada h1{animation:none}.portada .sub{animation-delay:420ms}.portada .acciones{animation-delay:500ms}.portada .meta{animation-delay:560ms}.portada .hero-visual{animation-delay:620ms;animation-duration:700ms}
 /* revelado por secciones (CSS puro; sin soporte = visible) */
 @supports (animation-timeline:view()){
-  .rev{animation:entra .6s var(--salida) both;animation-timeline:view();animation-range:entry 0% entry 28%}
+  /* Desactivamos animación de scroll rev en móvil para evitar que elementos permanezcan ocultos o cortados */
+  @media (min-width: 768px) {
+    .rev{animation:entra .6s var(--salida) both;animation-timeline:view();animation-range:entry 0% entry 28%}
+  }
 }
 @media (prefers-reduced-motion:reduce){.rev,.portada *{animation:none!important;opacity:1!important;transform:none!important}}
 
