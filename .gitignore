@@ -1,0 +1,9 @@
+# Hefesto: lo que no debe subir a GitHub
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.agent/
+.papelera/
+adjuntos/
+NO SUBIR A GITHUB/
