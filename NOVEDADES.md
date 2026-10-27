@@ -1,4 +1,13 @@
 
+## 1.0.4 — El Ágora con cara nueva y avisos que llegan
+
+- **Ágora más bonita:** Las portadas de la tienda se funden con la página, las cartas flotan con una sombra suave y cada pieza muestra su estado y su peso de un vistazo.
+- **uv:** Nueva pieza que maneja las dependencias de Python en segundos, compatible con pip.
+- **Avisos fuera de la app:** Si el agente te pide un permiso mientras estás en otra app, Hefesto te avisa con una notificación y puedes responder desde ahí, con confirmación de dos toques para que nada pase por accidente.
+- **Terminal y teclado:** La terminal se adapta al teclado al escribir y no deja nada tapado.
+- **PostgreSQL arreglado:** Vuelve a crear y arrancar su servidor en los teléfonos donde se quedaba a medias.
+- **Se instala encima:** No se pierde nada.
+
 ## 1.0.3 — Ágora se instala bien y más formas de arreglarlo
 
 - **Instalador más robusto:** Las herramientas del Ágora vuelven a instalar bien en los teléfonos donde fallaban con «código 100» (PHP, .NET, Godot, Chromium…). La pieza que faltaba (dbus) viene ahora de fábrica en el Linux de Hefesto, y si un paquete se queda a medias, el instalador lo reconfigura y reintenta solo.
