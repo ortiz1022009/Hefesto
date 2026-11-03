@@ -1,4 +1,37 @@
 
+## 1.0.5 — gdtoolkit y más control sobre archivos y vistas
+
+**Descargar:** [Hefesto-v1.0.5.apk](https://github.com/ortiz1022009/Hefesto/releases/download/v1.0.5/Hefesto-v1.0.5.apk) · 124,8 MB · Android 8.0+ · 64 bits
+
+### Nuevo
+
+- **Nueva pieza gdtoolkit:** Revisa y formatea GDScript sin sustituir las pruebas de Godot.
+- **Guardar archivos:** Guarda un archivo en el destino que elijas, sin exportar todo el proyecto.
+- **Código y resultado:** Alterna entre el código y su resultado en SVG, HTML, Markdown, JSON y CSV. HTML y SVG se muestran sin ejecutar scripts.
+
+### Mejoras
+
+- **Zoom y gestos:** Las imágenes se amplían sin tapar las barras. Pellizca, arrastra, toca dos veces o desliza sin zoom para pasar a otra imagen de la carpeta.
+- **Hojas y secuencias:** Primero se muestra la imagen completa. Elige una hoja con su cuadrícula o una secuencia numerada; la rejilla señala el fotograma real y los controles son compactos.
+- **Novedades con títulos:** Cada punto de esta versión tiene un título propio y una explicación completa, sin repetirla ni convertirla en un título recortado.
+- **Caché de compilación:** Las nuevas plantillas Android permiten a Gradle reutilizar las tareas que no han cambiado.
+- **Mensajes completos:** Los mensajes del usuario se muestran íntegros y permiten seleccionar y copiar su texto.
+- **Documentos grandes:** Documentos por páginas y menos recorridos repetidos al abrir Archivos y detectar proyectos.
+- **Chat más completo:** Listas anidadas, citas, tareas y tablas con desplazamiento propio. Lectura por partes, borradores y cola recuperable por conversación.
+- **Colores de código:** Se amplía el resaltado y se prepara de forma incremental, sin recortar las líneas largas.
+- **Taller compacto:** Taller más ordenado, acciones compactas y último destino recordado por proyecto.
+
+### Corregido
+
+- **Actividad de Antigravity:** Las herramientas avisan al empezar y terminar. La espera sin señales ya no se atribuye a saturación del modelo sin pruebas.
+- **Visor SVG y carpetas:** El visor SVG mantiene los controles ante un fallo; las carpetas muestran su cantidad de elementos también cerradas, sin bloquear la interfaz.
+- **Emuladores de 64 bits:** Ubuntu x86_64 incluido en el APK para preparar el entorno Linux en emuladores compatibles de 64 bits.
+- **Salida de Vista:** Al salir desde Vista se libera el visor; al volver a la aplicación se abre Chat.
+- **Archivos protegidos:** Protección de archivos grandes en Plan y Revisar, también al detener; se conservan los cambios aprobados.
+- **Respuestas de OpenCode:** OpenCode deja de mostrar resúmenes internos como respuestas y evita recargas por simples consultas.
+- **Entorno y diagnóstico:** Arquitectura real del dispositivo, preservación de la base Ubuntu anterior y botón para copiar el registro.
+- **Reintentos y Godot:** Reintentar pide conservar lo hecho; Godot no recibe la orden de exportar si no lo pediste.
+
 ## 1.0.4 — El Ágora con cara nueva y avisos que llegan
 
 - **Ágora más bonita:** Las portadas de la tienda se funden con la página, las cartas flotan con una sombra suave y cada pieza muestra su estado y su peso de un vistazo.

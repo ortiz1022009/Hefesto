@@ -14,26 +14,41 @@
 <link rel="alternate" type="application/atom+xml" title="Novedades de Hefesto" href="https://ortiz1022009.github.io/Hefesto/es/novedades.xml">
 <link rel="preload" href="https://ortiz1022009.github.io/Hefesto/manrope.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="https://ortiz1022009.github.io/Hefesto/estilo.css">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Hefesto","operatingSystem":"Android 8.0+","applicationCategory":"DeveloperApplication","softwareVersion":"1.0.4","datePublished":"2026-10-26","fileSize":"67,4MB","inLanguage":["es","en","pt","fr","de","it","ru","zh","ja","ko","ar","hi","tr","id"],"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"downloadUrl":"https://github.com/ortiz1022009/Hefesto/releases/latest/download/Hefesto-v1.0.4.apk","softwareRequirements":"arm64","author":{"@type":"Person","name":"Diego Ortiz"},"url":"https://ortiz1022009.github.io/Hefesto/es/","screenshot":"https://ortiz1022009.github.io/Hefesto/og.png","description":"Política de privacidad, licencia de uso, condiciones y licencias de terceros de Hefesto. Los mismos textos que en la app."}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Hefesto","operatingSystem":"Android 8.0+","applicationCategory":"DeveloperApplication","softwareVersion":"1.0.5","datePublished":"2026-11-02","fileSize":"124,8MB","inLanguage":["es","en","pt","fr","de","it","ru","zh","ja","ko","ar","hi","tr","id"],"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"downloadUrl":"https://github.com/ortiz1022009/Hefesto/releases/latest/download/Hefesto-v1.0.5.apk","softwareRequirements":"arm64","author":{"@type":"Person","name":"Diego Ortiz"},"url":"https://ortiz1022009.github.io/Hefesto/es/","screenshot":"https://ortiz1022009.github.io/Hefesto/og.png","description":"Política de privacidad, licencia de uso, condiciones y licencias de terceros de Hefesto. Los mismos textos que en la app."}</script>
 </head>
 <body>
 <a class="saltar" href="#contenido">Saltar al contenido</a>
-<header>
+<header class="cabecera-sitio">
   <div class="cont barra">
     <a class="logo" href="https://ortiz1022009.github.io/Hefesto/es/" aria-label="Hefesto, inicio"><img src="https://ortiz1022009.github.io/Hefesto/logo.png" alt="" width="26" height="26">Hefesto</a>
-    <button class="hamb" onclick="var n=document.querySelector('nav');n.classList.toggle('abierto');this.setAttribute('aria-expanded',n.classList.contains('abierto'))" aria-label="Menú" aria-expanded="false">☰</button>
-    <nav aria-label="Principal" onclick="if(event.target.closest('a')){this.classList.remove('abierto')}">
+    <button class="hamb" onclick="var n=document.getElementById('navegacion-principal');n.classList.toggle('abierto');this.setAttribute('aria-expanded',n.classList.contains('abierto'))" aria-label="Menú" aria-expanded="false" aria-controls="navegacion-principal">☰</button>
+    <nav id="navegacion-principal" aria-label="Principal" onclick="if(event.target.closest('a')){this.classList.remove('abierto');document.querySelector('.hamb').setAttribute('aria-expanded','false')}">
       <a href="https://ortiz1022009.github.io/Hefesto/es/#producto" data-p="index">Producto</a>
       <a href="https://ortiz1022009.github.io/Hefesto/es/agora" data-p="agora">Ágora</a>
       <a href="https://ortiz1022009.github.io/Hefesto/es/instalar" data-p="instalar">Instalar</a>
       <a href="https://ortiz1022009.github.io/Hefesto/es/novedades" data-p="novedades">Novedades</a>
       <a href="https://ortiz1022009.github.io/Hefesto/es/ayuda" data-p="ayuda">Ayuda</a>
       <a href="https://ko-fi.com/ortizdiego2026" rel="noopener">Apoyar</a>
+      <div class="enlaces-movil">
+        <a class="btn p" href="https://ortiz1022009.github.io/Hefesto/es/instalar">Descargar</a>
+        <div aria-label="Cambiar idioma"><a href="https://ortiz1022009.github.io/Hefesto/es/legal" lang="es" aria-current="page">Español</a><a href="https://ortiz1022009.github.io/Hefesto/en/legal" lang="en">English</a></div>
+      </div>
     </nav>
     <details class="idioma-cab"><summary aria-label="Cambiar idioma">es <span aria-hidden="true">▾</span></summary><div class="idiomas-lista"><a href="https://ortiz1022009.github.io/Hefesto/es/legal" lang="es" aria-current="page">Español</a><a href="https://ortiz1022009.github.io/Hefesto/en/legal" lang="en">English</a></div></details>
     <a class="btn p" href="https://ortiz1022009.github.io/Hefesto/es/instalar">Descargar</a>
   </div>
 </header>
+
+<script>
+(function(){
+  var cabecera=document.currentScript.previousElementSibling;
+  function medir(){document.documentElement.style.setProperty('--alto-cabecera',cabecera.getBoundingClientRect().height+'px')}
+  medir();
+  if(window.ResizeObserver)new ResizeObserver(medir).observe(cabecera);
+  else window.addEventListener('resize',medir);
+  cabecera.addEventListener('keydown',function(e){if(e.key==='Escape'){cabecera.querySelector('nav').classList.remove('abierto');var b=cabecera.querySelector('.hamb');b.setAttribute('aria-expanded','false');b.focus()}});
+})();
+</script>
 
 <main class="cont" id="contenido">
   <div class="cab-pag">
@@ -46,7 +61,7 @@
       <a class="chip" href="#terminos" data-doc="terminos" >Condiciones de uso</a>
       <a class="chip" href="#terceros" data-doc="terceros" >Licencias de terceros</a>
     </div>
-    <div class="panel" style="margin-top:28px;max-width:760px"><h3>En tres frases</h3><p>Hefesto no tiene cuenta, servidor ni estadísticas: tus datos se quedan en el teléfono. Lo único que sale es lo que tú envías al proveedor de IA que elijas, a GitHub o a las fuentes de las que descargas. La app es gratuita y se entrega tal cual; lo que creas con ella es tuyo.</p><p class="nota">Vigente desde el 26 de octubre de 2026 · Los cambios se avisan en Novedades.</p></div>
+    <div class="panel" style="margin-top:28px;max-width:760px"><h3>En tres frases</h3><p>Hefesto no tiene cuenta, servidor ni estadísticas: tus datos se quedan en el teléfono. Lo único que sale es lo que tú envías al proveedor de IA que elijas, a GitHub o a las fuentes de las que descargas. La app es gratuita y se entrega tal cual; lo que creas con ella es tuyo.</p><p class="nota">Vigente desde el 2 de noviembre de 2026 · Los cambios se avisan en Novedades.</p></div>
     <article class="doc" id="privacidad"><h2>Privacidad</h2>
 <p class="cabv">Versión 2 · 18 de octubre de 2026 · Vale para Hefesto 0.7.6 y posteriores.</p>
 <h3>Lo esencial</h3>
@@ -150,7 +165,7 @@
       <h2>Licencias de terceros</h2>
       <p class="cabv">La misma lista que la app enseña en Ajustes › Legal › Licencias de terceros</p>
       <p>Hefesto incluye código abierto de otros. Los componentes GPL y LGPL van sin modificar, como archivos separados; su código fuente está en los enlaces. Las bibliotecas de Android y Kotlin resueltas al compilar (Apache 2.0 en su mayoría) se listan con su versión exacta dentro de la app.</p>
-      <table class="tabla terceros"><thead><tr><th>Componente</th><th>Licencia</th><th>Enlaces</th></tr></thead><tbody><tr><th colspan="3">Incluidos en el APK</th></tr>
+      <div class="tabla-scroll" tabindex="0"><table class="tabla terceros"><thead><tr><th>Componente</th><th>Licencia</th><th>Enlaces</th></tr></thead><tbody><tr><th colspan="3">Incluidos en el APK</th></tr>
 <tr><td>PRoot</td><td>GPL-2.0-or-later</td><td class="m"><a class="enlace" href="https://github.com/proot-me/proot" rel="noopener">web</a> · <a class="enlace" href="https://github.com/termux/proot" rel="noopener">código fuente</a></td></tr>
 <tr><td>libtalloc (Samba)</td><td>LGPL-3.0-or-later</td><td class="m"><a class="enlace" href="https://github.com/samba-team/samba" rel="noopener">web</a> · <a class="enlace" href="https://github.com/termux/termux-packages/tree/master/packages/libtalloc" rel="noopener">código fuente</a></td></tr>
 <tr><td>libandroid-shmem (Termux)</td><td>LGPL-2.1-or-later</td><td class="m"><a class="enlace" href="https://github.com/termux/libandroid-shmem" rel="noopener">web</a> · <a class="enlace" href="https://github.com/termux/libandroid-shmem" rel="noopener">código fuente</a></td></tr>
@@ -170,7 +185,7 @@
 <tr><td>Git (logotipo)</td><td>Jason Long · CC BY 3.0</td><td class="m"><a class="enlace" href="https://git-scm.com/downloads/logos" rel="noopener">web</a></td></tr>
 <tr><td>PHP (logotipo)</td><td>Colin Viebrock · CC BY-SA 4.0</td><td class="m"><a class="enlace" href="https://php.net/download-logos.php" rel="noopener">web</a></td></tr>
 <tr><td>Rust (logotipo)</td><td>Rust Foundation · CC BY-SA 4.0</td><td class="m"><a class="enlace" href="https://foundation.rust-lang.org/policies/logo-policy-and-media-guide" rel="noopener">web</a></td></tr>
-<tr><td>OpenJDK (logotipo)</td><td>Oracle · BSD-3-Clause</td><td class="m"><a class="enlace" href="https://openjdk.org/legal/openjdk-trademark-notice.html" rel="noopener">web</a></td></tr></tbody></table>
+<tr><td>OpenJDK (logotipo)</td><td>Oracle · BSD-3-Clause</td><td class="m"><a class="enlace" href="https://openjdk.org/legal/openjdk-trademark-notice.html" rel="noopener">web</a></td></tr></tbody></table></div>
     </article>
     <div style="height:90px"></div>
   </div>

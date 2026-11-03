@@ -14,26 +14,41 @@
 <link rel="alternate" type="application/atom+xml" title="Novedades de Hefesto" href="https://ortiz1022009.github.io/Hefesto/es/novedades.xml">
 <link rel="preload" href="https://ortiz1022009.github.io/Hefesto/manrope.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="https://ortiz1022009.github.io/Hefesto/estilo.css">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Hefesto","operatingSystem":"Android 8.0+","applicationCategory":"DeveloperApplication","softwareVersion":"1.0.4","datePublished":"2026-10-26","fileSize":"67,4MB","inLanguage":["es","en","pt","fr","de","it","ru","zh","ja","ko","ar","hi","tr","id"],"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"downloadUrl":"https://github.com/ortiz1022009/Hefesto/releases/latest/download/Hefesto-v1.0.4.apk","softwareRequirements":"arm64","author":{"@type":"Person","name":"Diego Ortiz"},"url":"https://ortiz1022009.github.io/Hefesto/es/","screenshot":"https://ortiz1022009.github.io/Hefesto/og.png","description":"Catálogo de las piezas que Hefesto instala en su Linux: lenguajes, motores, utilidades y modelos. Con licencias y tamaños."}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Hefesto","operatingSystem":"Android 8.0+","applicationCategory":"DeveloperApplication","softwareVersion":"1.0.5","datePublished":"2026-11-02","fileSize":"124,8MB","inLanguage":["es","en","pt","fr","de","it","ru","zh","ja","ko","ar","hi","tr","id"],"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"downloadUrl":"https://github.com/ortiz1022009/Hefesto/releases/latest/download/Hefesto-v1.0.5.apk","softwareRequirements":"arm64","author":{"@type":"Person","name":"Diego Ortiz"},"url":"https://ortiz1022009.github.io/Hefesto/es/","screenshot":"https://ortiz1022009.github.io/Hefesto/og.png","description":"Catálogo de las piezas que Hefesto instala en su Linux: lenguajes, motores, utilidades y modelos. Con licencias y tamaños."}</script>
 </head>
 <body>
 <a class="saltar" href="#contenido">Saltar al contenido</a>
-<header>
+<header class="cabecera-sitio">
   <div class="cont barra">
     <a class="logo" href="https://ortiz1022009.github.io/Hefesto/es/" aria-label="Hefesto, inicio"><img src="https://ortiz1022009.github.io/Hefesto/logo.png" alt="" width="26" height="26">Hefesto</a>
-    <button class="hamb" onclick="var n=document.querySelector('nav');n.classList.toggle('abierto');this.setAttribute('aria-expanded',n.classList.contains('abierto'))" aria-label="Menú" aria-expanded="false">☰</button>
-    <nav aria-label="Principal" onclick="if(event.target.closest('a')){this.classList.remove('abierto')}">
+    <button class="hamb" onclick="var n=document.getElementById('navegacion-principal');n.classList.toggle('abierto');this.setAttribute('aria-expanded',n.classList.contains('abierto'))" aria-label="Menú" aria-expanded="false" aria-controls="navegacion-principal">☰</button>
+    <nav id="navegacion-principal" aria-label="Principal" onclick="if(event.target.closest('a')){this.classList.remove('abierto');document.querySelector('.hamb').setAttribute('aria-expanded','false')}">
       <a href="https://ortiz1022009.github.io/Hefesto/es/#producto" data-p="index">Producto</a>
       <a href="https://ortiz1022009.github.io/Hefesto/es/agora" data-p="agora">Ágora</a>
       <a href="https://ortiz1022009.github.io/Hefesto/es/instalar" data-p="instalar">Instalar</a>
       <a href="https://ortiz1022009.github.io/Hefesto/es/novedades" data-p="novedades">Novedades</a>
       <a href="https://ortiz1022009.github.io/Hefesto/es/ayuda" data-p="ayuda">Ayuda</a>
       <a href="https://ko-fi.com/ortizdiego2026" rel="noopener">Apoyar</a>
+      <div class="enlaces-movil">
+        <a class="btn p" href="https://ortiz1022009.github.io/Hefesto/es/instalar">Descargar</a>
+        <div aria-label="Cambiar idioma"><a href="https://ortiz1022009.github.io/Hefesto/es/agora" lang="es" aria-current="page">Español</a><a href="https://ortiz1022009.github.io/Hefesto/en/agora" lang="en">English</a></div>
+      </div>
     </nav>
     <details class="idioma-cab"><summary aria-label="Cambiar idioma">es <span aria-hidden="true">▾</span></summary><div class="idiomas-lista"><a href="https://ortiz1022009.github.io/Hefesto/es/agora" lang="es" aria-current="page">Español</a><a href="https://ortiz1022009.github.io/Hefesto/en/agora" lang="en">English</a></div></details>
     <a class="btn p" href="https://ortiz1022009.github.io/Hefesto/es/instalar">Descargar</a>
   </div>
 </header>
+
+<script>
+(function(){
+  var cabecera=document.currentScript.previousElementSibling;
+  function medir(){document.documentElement.style.setProperty('--alto-cabecera',cabecera.getBoundingClientRect().height+'px')}
+  medir();
+  if(window.ResizeObserver)new ResizeObserver(medir).observe(cabecera);
+  else window.addEventListener('resize',medir);
+  cabecera.addEventListener('keydown',function(e){if(e.key==='Escape'){cabecera.querySelector('nav').classList.remove('abierto');var b=cabecera.querySelector('.hamb');b.setAttribute('aria-expanded','false');b.focus()}});
+})();
+</script>
 
 <main class="cont" id="contenido">
   <div class="cab-pag">
@@ -46,7 +61,7 @@
       <button class="chip" data-f="destacada" aria-pressed="false">Destacadas</button>
       <button class="chip" data-f="basica" aria-pressed="false">Básicas</button>
     </div>
-    <table class="tabla"><thead><tr><th>Pieza</th><th>Para qué</th><th>Da</th><th>Licencia</th><th>Peso</th></tr></thead><tbody id="piezas"><tr id="blender-taller-3d-del-agente" class="destacada" data-busca="blender (taller 3d del agente) el agente modela, texturiza y renderiza sin pantalla modela, texturiza y renderiza sin pantalla. blender bt"><td><a href="#blender-taller-3d-del-agente">Blender (taller 3D del agente)</a><small>El agente modela, texturiza y renderiza sin pantalla</small></td><td>Modela, texturiza y renderiza sin pantalla.</td><td class="m">blender · bt</td><td class="m">GPL-3.0</td><td class="m num">950 MB</td></tr>
+    <div class="tabla-scroll" tabindex="0"><table class="tabla"><thead><tr><th>Pieza</th><th>Para qué</th><th>Da</th><th>Licencia</th><th>Peso</th></tr></thead><tbody id="piezas"><tr id="blender-taller-3d-del-agente" class="destacada" data-busca="blender (taller 3d del agente) el agente modela, texturiza y renderiza sin pantalla modela, texturiza y renderiza sin pantalla. blender bt"><td><a href="#blender-taller-3d-del-agente">Blender (taller 3D del agente)</a><small>El agente modela, texturiza y renderiza sin pantalla</small></td><td>Modela, texturiza y renderiza sin pantalla.</td><td class="m">blender · bt</td><td class="m">GPL-3.0</td><td class="m num">950 MB</td></tr>
 <tr id="godot-estudio-de-juegos-del-agente" class="destacada" data-busca="godot (estudio de juegos del agente) crea juegos completos y los exporta como apk instalable pide un juego y recibe el apk. godot"><td><a href="#godot-estudio-de-juegos-del-agente">Godot (estudio de juegos del agente)</a><small>Crea juegos completos y los exporta como APK instalable</small></td><td>Pide un juego y recibe el APK.</td><td class="m">godot</td><td class="m">MIT</td><td class="m num">700 MB</td></tr>
 <tr id="python" class="destacada basica" data-busca="python python3, pip y venv el lenguaje que más usa el agente. python3 python pip pip3"><td><a href="#python">Python</a><small>python3, pip y venv</small></td><td>El lenguaje que más usa el agente.</td><td class="m">python3 · python · pip</td><td class="m">PSF-2.0</td><td class="m num">60 MB</td></tr>
 <tr id="web-javascript-typescript" class="destacada basica" data-busca="web (javascript / typescript) node.js lts y npm node y npm para webs de verdad. node npm npx corepack"><td><a href="#web-javascript-typescript">Web (JavaScript / TypeScript)</a><small>Node.js LTS y npm</small></td><td>Node y npm para webs de verdad.</td><td class="m">node · npm · npx</td><td class="m">MIT</td><td class="m num">130 MB</td></tr>
@@ -96,7 +111,7 @@
 <tr id="sesiones-de-terminal-tmux" class="" data-busca="sesiones de terminal (tmux) varias terminales en una y tareas que siguen al cerrar terminales que siguen al cerrar. tmux"><td><a href="#sesiones-de-terminal-tmux">Sesiones de terminal (tmux)</a><small>Varias terminales en una y tareas que siguen al cerrar</small></td><td>Terminales que siguen al cerrar.</td><td class="m">tmux</td><td class="m">ISC</td><td class="m num">2 MB</td></tr>
 <tr id="sqlite" class="basica" data-busca="sqlite ver y reparar bases de datos .db de tus proyectos bases de datos .db a la vista. sqlite3"><td><a href="#sqlite">SQLite</a><small>Ver y reparar bases de datos .db de tus proyectos</small></td><td>Bases de datos .db a la vista.</td><td class="m">sqlite3</td><td class="m">Dominio público</td><td class="m num">3 MB</td></tr>
 <tr id="tesseract-ma-s-idiomas" class="" data-busca="tesseract: más idiomas portugués, francés, italiano, alemán y chino para el ocr más idiomas para leer texto en imágenes. tesseract-por tesseract-fra tesseract-ita tesseract-deu tesseract-chi"><td><a href="#tesseract-ma-s-idiomas">Tesseract: más idiomas</a><small>Portugués, francés, italiano, alemán y chino para el OCR</small></td><td>Más idiomas para leer texto en imágenes.</td><td class="m">tesseract-por · tesseract-fra · tesseract-ita</td><td class="m">Apache-2.0</td><td class="m num">60 MB</td></tr>
-<tr id="yt-dlp" class="" data-busca="yt-dlp bajar vídeo o audio de la web para un proyecto vídeo o audio de la web, para tu proyecto. yt-dlp ytdlp"><td><a href="#yt-dlp">yt-dlp</a><small>Bajar vídeo o audio de la web para un proyecto</small></td><td>Vídeo o audio de la web, para tu proyecto.</td><td class="m">yt-dlp · ytdlp</td><td class="m">Unlicense</td><td class="m num">35 MB</td></tr></tbody></table>
+<tr id="yt-dlp" class="" data-busca="yt-dlp bajar vídeo o audio de la web para un proyecto vídeo o audio de la web, para tu proyecto. yt-dlp ytdlp"><td><a href="#yt-dlp">yt-dlp</a><small>Bajar vídeo o audio de la web para un proyecto</small></td><td>Vídeo o audio de la web, para tu proyecto.</td><td class="m">yt-dlp · ytdlp</td><td class="m">Unlicense</td><td class="m num">35 MB</td></tr></tbody></table></div>
     <p class="cuenta"><span id="cuenta">51</span> de 51 piezas · catálogo del 20 de octubre de 2026</p>
   </div>
 </main>
