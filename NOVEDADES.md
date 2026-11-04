@@ -1,3 +1,15 @@
+## 1.0.6 — contexto local y correcciones de agentes
+
+**Descargar:** [Hefesto-v1.0.6.apk](https://github.com/ortiz1022009/Hefesto/releases/download/v1.0.6/Hefesto-v1.0.6.apk) · 124,8 MB · Android 8.0+ · 64 bits
+
+### Corregido
+
+- **Contexto y rendimiento local:** Configura el contexto, los hilos y la caché comprimida desde la ficha de Hefesto local. Consulta el contexto efectivo del modelo y cuándo se aplican los cambios.
+- **Peticiones locales más ajustadas:** El cálculo reserva espacio para las herramientas, además de las instrucciones y la conversación, para reducir errores por falta de contexto.
+- **Avisos de contexto:** Se corrige la recomendación de un contexto insuficiente y se añade un acceso a su configuración desde el aviso.
+- **Razonamiento de Antigravity:** Consulta los niveles compatibles y guarda la elección por modelo. Si no se pueden comprobar, permite usar el predeterminado sin ofrecer niveles sin confirmar.
+- **Mantenimiento de agentes:** Actualiza OpenCode desde su ficha y consulta la cuota de Antigravity y sus renovaciones.
+- **Conexiones e informes:** Las pruebas fallidas muestran detalles copiables con las claves tachadas. Ayuda permite consultar y preparar el informe de un cierre inesperado para enviarlo voluntariamente.
 
 ## 1.0.5 — gdtoolkit y más control sobre archivos y vistas
 
