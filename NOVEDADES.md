@@ -1,3 +1,37 @@
+## 1.0.7 — tu idioma, tu modelo propio y Ágora que avisa
+
+**Descargar:** [Hefesto-v1.0.7.apk](https://github.com/ortiz1022009/Hefesto/releases/download/v1.0.7/Hefesto-v1.0.7.apk) · 125,0 MB · Android 8.0+ · 64 bits
+
+### Nuevo
+
+- **Idioma con ficha propia:** en Ajustes tiene su sitio, ya no está escondido dentro de Apariencia, y se busca como los demás ajustes.
+- **glTF-Transform en Ágora:** mira qué lleva dentro un modelo 3D, límpialo y aligéralo sin abrir otro programa.
+- **Foto de perfil de GitHub:** tu tarjeta de la cuenta enseña tu foto; si no hay foto o no hay conexión, queda la inicial de siempre.
+- **Modelo propio (.gguf):** ahora con su apartado, debajo del catálogo, y «Borrar caché» en Ajustes › Almacenamiento.
+- **Contar un problema con fotos y vídeos:** se puede enseñar lo que pasó. Hasta 3 archivos, con el correo opcional para poder responderte.
+
+### Mejoras
+
+- **Hefesto habla tu idioma:** los agentes contestan en el idioma en que les escribes, aunque la app esté en otro.
+- **Ajustes se encuentra solo:** el buscador entiende palabras a medias («notif» encuentra las notificaciones) y pone primero lo que más encaja.
+- **Todo a mano mientras el agente trabaja:** enviar, aprobar un plan, deshacer cambios, instalar una pieza o pedir correcciones ya no se bloquean.
+- **La interfaz se queda quieta:** los nombres largos del chat se cortan con puntos suspensivos y la cola de mensajes ocupa un solo renglón.
+- **El avance de una descarga ya no se queda en 0 %:** sale de lo que dicen las herramientas y es la misma cifra en la ficha y en el aviso.
+- **Piezas con nombre propio:** glTF-Transform, Node.js, pandoc, FFmpeg… con lo que hacen debajo; «no cabe» pasa a «no va en este teléfono», con su explicación.
+- **Actualizaciones con nombre propio:** la ficha dice «Actualizable» con su peso y la descarga se llama «Actualizando…». El catálogo tiene su filtro.
+- **Archivos abre antes:** la lista primero y los recuentos después. Apariencia, ordenada en cuatro grupos.
+- **Ágora avisa desde lejos:** el punto del icono late mientras algo baja o espera en la cola, y Ágora enseña lo que baja, lo que espera, lo que se puede actualizar y lo último que falló.
+- **Cambiar de agente sin salir de donde estás:** «Usar» elige el motor y te deja en la misma pantalla; para ir al chat está su botón.
+- **Instalar ya no se queda a medias:** el botón dice «Instalando…» y no acepta un segundo toque mientras la pieza trabaja.
+
+### Corregido
+
+- **Nombres cortados:** el motor y el modelo ya no se quedan a medias en la barra del chat cuando el texto no cabe.
+- **Voz y avisos:** al pausar o parar la lectura la app ya no se queda parada unos segundos, y los avisos de Git dicen qué falló.
+- **APK externo sin permiso:** el aviso dice qué activar y trae «Abrir Ajustes», en vez de no pasar nada y tener que tocar dos veces.
+- **Hefesto local se desinstala de verdad:** borra su servidor y lo cuenta paso a paso; antes avisaba y no quitaba nada, y la ficha seguía como si estuviera puesto.
+- **Panel de descargas con tarjetas:** cada pieza con su icono y su estado, se puede abrir mientras baja o al terminar, y «Comprobar de nuevo» dice qué encontró.
+
 ## 1.0.6 — contexto local y correcciones de agentes
 
 **Descargar:** [Hefesto-v1.0.6.apk](https://github.com/ortiz1022009/Hefesto/releases/download/v1.0.6/Hefesto-v1.0.6.apk) · 124,8 MB · Android 8.0+ · 64 bits
