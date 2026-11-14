@@ -1,3 +1,27 @@
+## 1.0.8 — Ágora honesta, Leer PDF, ruff y «Donar» con su palabra
+
+**Descargar:** [Hefesto-v1.0.8.apk](https://github.com/ortiz1022009/Hefesto/releases/download/v1.0.8/Hefesto-v1.0.8.apk) · 125,0 MB · Android 8.0+ · 64 bits
+
+### Nuevo
+
+- **Leer PDF en Ágora:** saca el texto de un PDF, cuenta sus páginas o pasa una a imagen, sin abrir otro programa.
+- **ruff en Ágora:** revisa el Python del proyecto y corrige solo lo que son tonterías, antes de que lo veas tú.
+
+### Corregido
+
+- **Ágora deja de mentir:** si un programa se cae a mitad, ya no pone «terminó bien». Explica si fue la descarga o si el programa no arranca en tu teléfono, y dice si merece la pena reintentar.
+- **Chromium:** dejaba de estar «instalado» sin tener el navegador dentro, y al pulsar no pasaba nada. Ahora solo cuenta como instalado cuando el navegador está de verdad.
+- **La app gasta menos batería en segundo plano:** un registro interno despertaba cuatro veces por segundo aunque no hubiera nada que apuntar.
+- **Espacio:** si una pieza no cabe en el teléfono, la app lo dice antes de empezar a bajarla y te lleva a liberar espacio, en vez de dejar una descarga que se muere a medias sin explicar nada.
+- **Descargas:** el panel enseña cada herramienta con su icono, como en Ágora, en vez del mismo dibujo de nube para todas.
+- **Los iconos de Leer PDF y de ruff:** ahora cada una tiene el suyo, distinto del resto.
+- **Chromium ya se instala:** el instalador moría con un error de sintaxis en el guion antes de bajar nada, y cuando la descarga fallaba lo tapaba. Ahora si falla dice por qué y cómo arreglarlo.
+- **ruff ya se instala:** decía que la descarga no cuadraba con su huella cuando el problema era que la app no la había rellenado. Tu descarga estaba bien.
+- **Donar:** fuera «invitar un café» (nadie que no conozca Ko-fi entiende qué es) y fuera el botón escondido de la barra. Ahora está en el menú ⋮ con su palabra, y en Ajustes › Apoyar el proyecto, con las formas de ayudar que no cuestan nada.
+- **Logo de Ko-fi:** era una imitación con un corazón pegado. Ahora es el de verdad, con su naranja #FF5A16.
+- **Después de un trabajo largo:** si sale bien, un renglón pregunta si quieres donar. Una vez cada quince días, y «Ahora no» lo apaga para siempre.
+- **El botón de donar:** dice «Donar» con su palabra en la barra, y los botones de GitHub ya no salen cortados («Dale una»).
+
 ## 1.0.7 — tu idioma, tu modelo propio y Ágora que avisa
 
 **Descargar:** [Hefesto-v1.0.7.apk](https://github.com/ortiz1022009/Hefesto/releases/download/v1.0.7/Hefesto-v1.0.7.apk) · 125,0 MB · Android 8.0+ · 64 bits
