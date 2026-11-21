@@ -1,3 +1,22 @@
+## 1.0.9 — PDF comprimido, idioma estable y Ágora traducida
+
+**Descargar:** [Hefesto-v1.0.9.apk](https://github.com/ortiz1022009/Hefesto/releases/download/v1.0.9/Hefesto-v1.0.9.apk) · 126,0 MB · Android 8.0+ · 64 bits
+
+### Nuevo
+
+- **Comprimir PDF en Ágora:** un escaneo de 40 MB cabe ya en un correo sin volverse ilegible, el texto se sigue buscando y copiando, y varios PDF se unen en uno
+
+### Corregido
+
+- **El agente ya no cambia de idioma:** si le escribes en inglés contesta en inglés, también con el modelo pequeño y con la memoria justa
+- **Instalar un agente lleva a Agentes:** el aviso abre la pantalla donde ves si avanza y dónde se para, en vez de dejarte en la tienda de Ágora
+- **Ágora en trece idiomas:** las descripciones largas de las herramientas y los textos de sus fichas dejan de salir en español cuando la app está en otro idioma.
+- **La Biblioteca traduce la ficha:** antes la descripción de cada resultado se quedaba siempre en español, pasara lo que pasara.
+- **Campana y catálogo traducidos:** los avisos y los enlaces del catálogo se traducen como el resto de la app.
+- **Los últimos nombres de herramientas:** ya se traducen AAPT2, Android SDK, ZIP, Assimp, JDK, PDF y Gradle.
+- **El título «Hefesto» ya no se parte:** la letra encoge lo justo cuando el botón de Donar ocupa más, como pasaba en ruso y en francés.
+- **Errores de ZIP en tu idioma:** al extraer un ZIP, el fallo se cuenta como el resto en vez de aparecer siempre en español.
+
 ## 1.0.8 — Ágora honesta, Leer PDF, ruff y «Donar» con su palabra
 
 **Descargar:** [Hefesto-v1.0.8.apk](https://github.com/ortiz1022009/Hefesto/releases/download/v1.0.8/Hefesto-v1.0.8.apk) · 125,0 MB · Android 8.0+ · 64 bits

@@ -4,8 +4,8 @@
 completo dentro de Android: agentes de IA que escriben y corrigen código, un Linux propio y la
 compilación de APK — sin PC, gratis y sin anuncios.
 
-**Descargar: [Hefesto v1.0.8](https://github.com/ortiz1022009/Hefesto/releases/download/v1.0.8/Hefesto-v1.0.8.apk)** ·
-Android 8.0 o superior · 64 bits · ~125,0 MB · [Novedades](NOVEDADES.md) ·
+**Descargar: [Hefesto v1.0.9](https://github.com/ortiz1022009/Hefesto/releases/download/v1.0.9/Hefesto-v1.0.9.apk)** ·
+Android 8.0 o superior · 64 bits · ~126,0 MB · [Novedades](NOVEDADES.md) ·
 [Privacidad](PRIVACIDAD.md) · [Licencia](LICENCIA.md)
 
 **Web oficial:** <https://ortiz1022009.github.io/Hefesto/> — con la guía de instalación paso a paso
